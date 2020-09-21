@@ -1,0 +1,178 @@
+body{
+	padding: 0;
+	margin:0;
+  font-family: 'Kumbh Sans', sans-serif;
+  
+  background-image:url(gold\ base5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+.container{
+
+	width: 85%;
+	height: 820px;
+    margin-right: 6%;
+    margin-left:6%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
+    
+	border: 1px solid black;
+  animation: mymove 5s infinite;
+
+	position: relative;
+	overflow: scroll;
+	padding: 15px 15px 15px 20px;
+	color: black;
+}
+@keyframes mymove {
+	50% {border-top: 15px solid white;}
+  }
+
+.container::-webkit-scrollbar {
+	display: none;
+}
+.container h1{
+	margin-top: 2em;
+	text-align: center;
+}
+.container__image1 {
+  width: 350px;
+  height: 250px;
+  margin: 25px 30px 20px 0;
+  margin-left:3%;
+  float: left;
+}
+.container__image2 {
+  width: 350px;
+  height: 250px;
+  margin: 10px 30px 50px 0;
+  float: right;
+}
+.container__image3 {
+  width: 350px;
+  margin: 50px 30px 20px 0;
+  float: left;
+  margin-left:4%;
+}
+.container__text {
+  display: inline;
+  
+}
+
+.container h1{
+	text-align: center;
+  font-size: 35px;
+  
+}
+.container p{
+	position: relative;
+	align-self: center;
+	font-weight: 2.5em;
+	font-size: 22px;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-style:italic;
+    
+}
+.reading-mode{
+	background-color: white;
+	float: right;
+	margin-top: -3em;
+	width: 130px;
+	height: 30px;
+	margin-right: 12em;
+	border-radius: 8px;
+	color:black;
+	border: 1.2px solid white;
+}
+.heading-container{
+	width: 80%;
+	height: 80%;
+	margin: 100px auto;
+  position: relative;
+  
+    
+  
+}
+.heading-container h1{
+	font-family: 'Karla', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color:white;
+	font-size: 54px;
+	padding-bottom: 12px;
+	border-bottom: 2px solid white;
+}
+.user-img{
+	width: 60px;
+	height: 60px;
+	border-radius: 150px;
+	float: left;
+	margin-right: 0.6em;
+	margin-left: 0.6em;
+
+}
+.author{
+	color:black;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.date{
+	color:black;
+	margin-top: -1.5em;
+	font-size: 15px;
+	padding-left: 10px;
+	font-weight: bold;
+	
+}
+
+.fa-heart-o{
+	color:black;
+	padding-left: 4em;
+	margin-right: 1em;
+
+}
+.follow{
+	border: 1.5px solid black;
+	border-radius: 4px;
+	color:black;
+	background: transparent;
+	padding: 2px 8px 2px 8px;
+}
+a{
+	float: right;
+}
+.fa-bookmark-o{
+	
+  color:black;
+	font-size: 14px;
+	margin-right: 0.5em;
+}
+.fa-facebook{
+
+	color:black;
+	font-size: 14px;
+	margin-right: 0.5em;
+}
+
+.fa-twitter{
+
+	color:black;
+	font-size: 14px;
+	margin-right: 0.5em;
+}
+.fa-share-alt{
+
+	color:black;
+	font-size: 14px;
+	margin-right: 0.5em;
+}
+.intro{
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.6);
+}
